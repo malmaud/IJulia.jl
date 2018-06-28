@@ -18,7 +18,7 @@ if length(ARGS) > 0
 else
     # generate profile and save
     let port0 = 5678
-        global const profile = (String=>Any)[
+        global profile = (String=>Any)[
             "ip" => "127.0.0.1",
             "transport" => "tcp",
             "stdin_port" => port0,
